@@ -1,3 +1,6 @@
+// Write a function that takes two arrays of numbers as input and returns a new array that contains only
+// the unique elements from both arrays.
+
 const arr1 = [1, 2, 3];
 const arr2 = [2, 3, 4];
 

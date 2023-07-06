@@ -1,3 +1,5 @@
+// Implement a function that finds the largest element in an array of numbers.
+
 let arr = [1, 2, 3, 4, 5];
 
 // function max_array(array) {
@@ -9,14 +11,14 @@ let arr = [1, 2, 3, 4, 5];
 // without using inbuilt function
 
 function max_array(array) {
-    let larget = array[0];
+  let larget = array[0];
 
-    for (let i = 1; i < array.length; i++) {
-        if (array[i] > larget) {
-            larget = array[i];
-        }
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] > larget) {
+      larget = array[i];
     }
-    return larget;
+  }
+  return larget;
 }
 
 console.log(max_array(arr));

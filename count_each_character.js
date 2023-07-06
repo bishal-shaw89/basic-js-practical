@@ -1,3 +1,5 @@
+// Create a function that takes a string as input and returns the count of each character in the string as an object.
+
 let str = "Hello World!";
 
 let charCount = {};
