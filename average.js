@@ -13,4 +13,4 @@ function findAverage(arr) {
 const numbers = [1, 2, 3, 4, 5];
 const result = findAverage(numbers);
 
-console.log(result);
+console.log("result ->",result);
