@@ -9,6 +9,8 @@ function secondSmallest(arr) {
         if (element < smallest) {
             secondSmallest = smallest;
             smallest = element;
+        }else if(element < secondSmallest && element !== smallest){
+            secondSmallest = element;
         }
     }
 
